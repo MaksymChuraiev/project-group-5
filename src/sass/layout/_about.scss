@@ -2,6 +2,7 @@
   padding-top: 125px;
   padding-bottom: 39px;
   background-color: #fff5f6;
+
   background-image: url('../images/about/milk-mob-x1.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,6 +21,7 @@
     (min-resolution: 2dppx) {
     background-image: url('../images/about/milk-dek-x2.png');
   }
+
   @media screen and (min-width: 768px) {
     padding-top: 130px;
     padding-bottom: 66px;
@@ -30,6 +32,7 @@
   }
 }
 
+
 .about-wrap {
   @media screen and (min-width: 1280px) {
     display: flex;
@@ -37,7 +40,9 @@
 }
 
 .about__pre-title {
-  margin-bottom: 15px;
+
+.about__pre-title {
+
   font-size: 18px;
   line-height: 1.17;
   text-align: center;
@@ -76,7 +81,9 @@
 
 .about-content {
   max-width: 220px;
-  margin: 0 auto;
+
+
+
   @media screen and (min-width: 768px) {
     max-width: 340px;
   }
@@ -116,6 +123,7 @@
   }
 }
 
+
 .about-content__after-text {
   font-size: 12px;
   line-height: 1.58;
@@ -151,6 +159,7 @@
   }
 }
 
+
 .about-content__icon {
   margin-left: 10px;
   fill: #d41443;
@@ -159,3 +168,4 @@
     fill: #ffffff;
   }
 }
+
