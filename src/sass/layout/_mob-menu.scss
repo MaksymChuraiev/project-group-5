@@ -44,7 +44,6 @@
     right: 10px;
 
     background-color: transparent;
-    border: 1px solid #fff;
     cursor: pointer;
 
     width: 40px;
@@ -79,15 +78,7 @@
 
     @media screen and (min-width: 768px) {
         width: 186px;
-
     }
-}
-.btn-buy-svg {
-    fill: var(--title-text-color);
-}
-.btn-close-svg {
-
-    fill: #fff;
 }
 
 .burger-menu__list {
