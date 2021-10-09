@@ -27,6 +27,13 @@ img {
   display: block;
 }
 
+button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
 .section-title {
   color: var(--title-text-color);
   font-family: 'Titan One', sans-serif;
