@@ -1,0 +1,92 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+  // .cards__item
+  &__item {
+    border-radius: 24px;
+  }
+  // .cards__type
+  &__type {
+    display: inline;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: var(--secondary-text-color);
+    &--cafe {
+      padding: 0 23px;
+      background-color: var(--cafe-bg-color);
+    }
+    &--food-track {
+      padding: 0 27px;
+      background-color: var(--food-track-bg-color);
+    }
+    @media screen and (min-width: 768px) {
+      display: inline-block;
+      padding: 0 15px;
+      font-size: 16px;
+      border-radius: 6px;
+    }
+  }
+  // .cards__location
+  &__location {
+    margin: 25px 0 10px 0;
+    color: var(--third-text-color);
+    @media screen and (min-width: 768px) {
+      margin: 30px 0 14px 0;
+    }
+    @media screen and (min-width: 1280px) {
+      margin: 32px 0 10px 0;
+    }
+  }
+  // .cards__descr
+  &__descr {
+    line-height: 150%;
+    @media screen and (min-width: 768px) {
+      line-height: 166%;
+    }
+    @media screen and (min-width: 1280px) {
+      line-height: 183%;
+    }
+  }
+  // .cards__time-list
+  &__time-list {
+    margin: 25px 0;
+    padding: 25px 0;
+    border-top: 1px solid var(--lines-color);
+    border-bottom: 1px solid var(--lines-color);
+    @media screen and (min-width: 768px) {
+      margin: 30px 0;
+      padding: 30px 0;
+    }
+    @media screen and (min-width: 1280px) {
+      margin: 32px 0;
+      padding: 32px 0;
+    }
+  }
+  // .cards__time-item
+  &__time-item:not(:last-child) {
+    margin-bottom: 10px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 15px;
+    }
+  }
+  // .cards__day-work
+  &__day-work {
+    color: var(--third-text-color);
+  }
+  // .cards__time-work
+  &__time-work {
+    margin-top: -2px;
+    color: var(--pre-title-text-color);
+  }
+  // .cards__link
+  &__link {
+    display: block;
+    line-height: 150%;
+    @media screen and (min-width: 768px) {
+      line-height: 183%;
+    }
+  }
+}

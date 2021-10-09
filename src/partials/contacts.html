@@ -1,9 +1,9 @@
 <section class="contacts" id="contacts">
   <div class="container">
-    <h2 class="contacts__title title">Contacts</h2>
+    <h2 class="contacts__title section-title visually-hidden">Contacts</h2>
     <ul class="contacts__list cards">
       <!-- 1st item -->
-      <li class="cards__item">
+      <li class="contacts__item cards__item">
         <p class="cards__type cards__type--cafe">Cafe</p>
 
         <p class="cards__location">Chicago</p>
@@ -24,7 +24,7 @@
         <a class="cards__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
       </li>
       <!-- 2nd item -->
-      <li class="cards__item">
+      <li class="contacts__item cards__item">
         <p class="cards__type cards__type--food-track">Food track</p>
 
         <p class="cards__location">Los Angeles</p>
@@ -45,7 +45,7 @@
         <a class="cards__link" href="mailto:noreply@envato.com">noreply@envato.com</a>
       </li>
       <!-- 3rd item -->
-      <li class="cards__item">
+      <li class="contacts__item cards__item">
         <p class="cards__type cards__type--cafe">Cafe</p>
 
         <p class="cards__location">New York</p>
@@ -67,17 +67,19 @@
       </li>
     </ul>
     <!-- открытие модального окна при помощи кнопок Location и Franchise - открытие маркированной карты-->
-    <button class="contacts__location-btn" type="submit">
-      Our Locations
-      <svg class="contacts__btn-arrow">
-        <use href="#"></use>
-      </svg>
-    </button>
-    <button class="contacts__franchise-btn" type="submit">
-      Franchise
-      <svg class="contacts__btn-arrow">
-        <use href="#"></use>
-      </svg>
-    </button>
+    <div class="contacts__buttons">
+      <button class="contacts__btn" type="submit">
+        Our Locations
+        <!-- <svg class="contacts__btn-arrow">
+          <use href="#"></use>
+        </svg> -->
+      </button>
+      <button class="contacts__btn" type="submit">
+        Franchise
+        <!-- <svg class="contacts__btn-arrow">
+          <use href="#"></use>
+        </svg> -->
+      </button>
+    </div>
   </div>
 </section>
