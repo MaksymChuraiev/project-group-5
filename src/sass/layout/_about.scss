@@ -2,6 +2,26 @@
   padding-top: 125px;
   padding-bottom: 39px;
   background-color: #fff5f6;
+
+  background-image: url('../images/about/milk-mob-x1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/about/milk-mob-x2.png');
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url('../images/about/milk-dek-x1.png');
+  }
+  @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/about/milk-dek-x2.png');
+  }
+
   @media screen and (min-width: 768px) {
     padding-top: 130px;
     padding-bottom: 66px;
@@ -12,7 +32,17 @@
   }
 }
 
+
+.about-wrap {
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}
+
 .about__pre-title {
+
+.about__pre-title {
+
   font-size: 18px;
   line-height: 1.17;
   text-align: center;
@@ -51,6 +81,9 @@
 
 .about-content {
   max-width: 220px;
+
+
+
   @media screen and (min-width: 768px) {
     max-width: 340px;
   }
@@ -90,6 +123,24 @@
   }
 }
 
+
+.about-content__after-text {
+  font-size: 12px;
+  line-height: 1.58;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.79;
+    letter-spacing: 0.04em;
+    margin-bottom: 62px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.93;
+    margin-bottom: 50px;
+  }
+}
+
 .about-content__button {
   width: 176px;
   height: 44px;
@@ -100,9 +151,21 @@
   border: 1px solid transparent;
   border-radius: 22px;
   background-color: #ffffff;
+
   &:hover,
   &:focus {
     color: #ffffff;
     background-color: #d41443;
   }
 }
+
+
+.about-content__icon {
+  margin-left: 10px;
+  fill: #d41443;
+
+  &:hover {
+    fill: #ffffff;
+  }
+}
+
