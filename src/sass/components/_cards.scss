@@ -1,0 +1,58 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  // .cards__item
+  &__item {
+    border-radius: 24px;
+  }
+  // .cards__type
+  &__type {
+    display: inline;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: var(--secondary-text-color);
+    &--cafe {
+      padding: 0 23px;
+      background-color: var(--cafe-bg-color);
+    }
+    &--food-track {
+      padding: 0 23px;
+      background-color: var(--food-track-bg-color);
+    }
+  }
+  // .cards__location
+  &__location {
+    margin: 25px 0 10px 0;
+    color: var(--third-text-color);
+  }
+  // .cards__descr
+  &__descr {
+    line-height: 150%;
+  }
+  // .cards__time-list
+  &__time-list {
+    margin: 25px 0;
+    padding: 25px 0;
+    border-top: 1px solid var(--lines-color);
+    border-bottom: 1px solid var(--lines-color);
+  }
+  // .cards__time-item
+  &__time-item {
+    margin-bottom: 10px;
+    line-height: 186%;
+  }
+  // .cards__day-work
+  &__day-work {
+    color: var(--third-text-color);
+  }
+  // .cards__time-work
+  &__time-work {
+    margin-top: -2px;
+    color: var(--pre-title-text-color);
+  }
+  // .cards__link
+  &__link {
+    display: block;
+    line-height: 150%;
+  }
+}
