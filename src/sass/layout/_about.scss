@@ -3,25 +3,25 @@
   padding-bottom: 39px;
   background-color: var(--pink-section-bg);
 
-  background-image: url('../images/about/milk-mob-x1.png');
+  // background-image: url('../images/about/milk-mob-x1.png');
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url('../images/about/milk-mob-x2.png');
-  }
-  @media screen and (min-width: 1280px) {
-    background-image: url('../images/about/milk-dek-x1.png');
-  }
-  @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url('../images/about/milk-dek-x2.png');
-  }
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: url('../images/about/milk-mob-x2.png');
+  // }
+  // @media screen and (min-width: 1280px) {
+  //   background-image: url('../images/about/milk-dek-x1.png');
+  // }
+  // @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: url('../images/about/milk-dek-x2.png');
+  // }
 
   @media screen and (min-width: 768px) {
     padding-top: 130px;
@@ -73,6 +73,30 @@
 }
 
 .about-wrap {
+  background-image: url('../images/about/milk-mob-x1.png');
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 400px;
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/about/milk-mob-x2.png');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: unset;
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url('../images/about/milk-dek-x1.png');
+    background-position: center;
+  }
+  @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/about/milk-dek-x2.png');
+  }
   @media screen and (min-width: 768px) {
     display: flex;
   }
@@ -86,6 +110,10 @@
   @media screen and (min-width: 1200px) {
     margin-right: 74px;
   }
+}
+
+.about__img {
+  margin: 0 auto;
 }
 
 .about-content {
@@ -167,11 +195,13 @@
   border: 1px solid transparent;
   border-radius: 22px;
   background-color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
+  &:hover {
+    background-color: var(--btn-light-bg-hov-foc);
+  }
   &:focus {
-    color: #ffffff;
-    background-color: #d41443;
+    background-color: var(--btn-light-bg-hov-foc);
   }
 }
 
