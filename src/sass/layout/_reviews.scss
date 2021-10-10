@@ -1,0 +1,110 @@
+.reviews-img {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.slider-text-wrapper {
+  background-color: #fafafa;
+  padding: 44px 50px 16px;
+}
+
+.slider-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.55;
+  padding: 0 18px;
+  color: #000000;
+  background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
+  text-align: center;
+  margin-left: -15px;
+
+  &::before {
+    content: '';
+    display: inline-flex;
+    width: 54px;
+    height: 40px;
+    background-image: url(../images/customer/textdecor.svg);
+    background-size: cover;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 740px;
+  }
+
+  .slider {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .slider-text-wrapper {
+    padding: 47px 60px 27px;
+  }
+
+  .slider-text {
+    font-size: 14px;
+    line-height: 2.16;
+    letter-spacing: 0.04em;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1090px;
+  }
+
+  .slider {
+    width: 926px;
+  }
+
+  .slider-text {
+    font-size: 16px;
+    line-height: 1.86;
+    padding: 0 4px;
+  }
+}
+.reviews-pretext {
+  padding-top: 19px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(37 / 20);
+  text-align: center;
+  color: #000000;
+  &::before {
+    justify-content: center;
+    align-items: center;
+    content: '';
+    display: block;
+    width: 32px;
+    height: 4px;
+    background-image: url(../images/customer/group8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto 15px auto;
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/customer/home.svg);
+  background-size: cover;
+}
