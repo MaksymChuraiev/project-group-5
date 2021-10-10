@@ -9,10 +9,10 @@
   }
   @media screen and (min-width: 1280px) {
     font-size: 16px;
-    // background-image: url(../../images/contacts/fon-dek-x1.png);
-    // background-repeat: no-repeat;
-    // background-position: top;
-    // background-size: cover;
+    background-image: url(../images/contacts/fon-dek-x1.png);
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+    background-size: contain;
   }
   // .contacts__relative
   &__relative {
