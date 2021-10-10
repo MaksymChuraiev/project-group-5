@@ -21,7 +21,6 @@
   color: #000000;
   background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
   text-align: center;
-  margin-left: -15px;
 
   &::before {
     content: '';
@@ -35,6 +34,10 @@
 }
 
 @media screen and (min-width: 480px) {
+  .slick-dotted.slick-slider {
+    margin-bottom: 116px;
+  }
+
   .container {
     width: 480px;
     margin: 0 auto;
@@ -42,6 +45,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .slick-dotted.slick-slider {
+    margin-bottom: 149px;
+  }
+
   .container {
     width: 740px;
   }
@@ -64,6 +71,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .slick-dotted.slick-slider {
+    margin-bottom: 162px;
+  }
+
   .container {
     width: 1090px;
   }
@@ -86,6 +97,7 @@
   line-height: calc(37 / 20);
   text-align: center;
   color: #000000;
+  margin-bottom: 35px;
   &::before {
     justify-content: center;
     align-items: center;
