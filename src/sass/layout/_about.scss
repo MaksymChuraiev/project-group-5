@@ -1,9 +1,10 @@
 .about {
   padding-top: 125px;
   padding-bottom: 39px;
-  background-color: #fff5f6;
+  background-color: var(--pink-section-bg);
 
   background-image: url('../images/about/milk-mob-x1.png');
+
   background-repeat: no-repeat;
   background-size: cover;
   @media (min-device-pixel-ratio: 2),
@@ -32,17 +33,12 @@
   }
 }
 
-.about-wrap {
-  @media screen and (min-width: 1280px) {
-    display: flex;
-  }
-}
-
 .about__pre-title {
   font-size: 18px;
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 15px;
   @media screen and (min-width: 768px) {
     font-size: 26px;
     line-height: 1.15;
@@ -58,6 +54,7 @@
   font-size: 34px;
   line-height: 1.15;
   text-align: center;
+  margin: 0 auto;
   text-transform: uppercase;
   width: 200px;
   margin-bottom: 26px;
@@ -75,11 +72,30 @@
   }
 }
 
+.about-wrap {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.about-img {
+  @media screen and (min-width: 768px) {
+    margin-right: 17px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 74px;
+  }
+}
+
 .about-content {
   max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (min-width: 768px) {
     max-width: 340px;
+    margin-top: 50px;
   }
   @media screen and (min-width: 1280px) {
     max-width: 463px;
@@ -88,9 +104,11 @@
 
 .about-content__pre-text {
   margin-bottom: 39px;
+
   font-size: 12px;
   line-height: 1.58;
   color: var(--third-text-color);
+  letter-spacing: normal;
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.79;
@@ -105,6 +123,7 @@
 .about-content__text {
   font-size: 12px;
   line-height: 1.58;
+  letter-spacing: normal;
   margin-bottom: 17px;
   @media screen and (min-width: 768px) {
     font-size: 14px;
@@ -120,7 +139,7 @@
 .about-content__after-text {
   font-size: 12px;
   line-height: 1.58;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.79;
@@ -135,6 +154,10 @@
 }
 
 .about-content__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto 37px;
   width: 176px;
   height: 44px;
   font-weight: 700;
@@ -153,7 +176,7 @@
 }
 
 .about-content__icon {
-  margin-left: 10px;
+  margin-left: 13px;
   fill: var(--btn-bg-red);
   &:hover {
     fill: var(--secondary-text-color);
