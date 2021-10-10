@@ -1,5 +1,5 @@
 .current {
-    accent-color: var(--accent-text-color);
+  color: var(--accent-text-color);
 }
 .header {
     position: fixed;
@@ -39,7 +39,7 @@
     margin-right: 35px;
   }
   .header-list__link {
-    display: block;
+    display: inline-block;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
