@@ -32,7 +32,6 @@
   }
 }
 
-
 .about-wrap {
   @media screen and (min-width: 1280px) {
     display: flex;
@@ -40,9 +39,6 @@
 }
 
 .about__pre-title {
-
-.about__pre-title {
-
   font-size: 18px;
   line-height: 1.17;
   text-align: center;
@@ -81,8 +77,6 @@
 
 .about-content {
   max-width: 220px;
-
-
 
   @media screen and (min-width: 768px) {
     max-width: 340px;
@@ -123,7 +117,6 @@
   }
 }
 
-
 .about-content__after-text {
   font-size: 12px;
   line-height: 1.58;
@@ -159,13 +152,10 @@
   }
 }
 
-
 .about-content__icon {
   margin-left: 10px;
-  fill: #d41443;
-
+  fill: var(--btn-bg-red);
   &:hover {
-    fill: #ffffff;
+    fill: var(--secondary-text-color);
   }
 }
-
