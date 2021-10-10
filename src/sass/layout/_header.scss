@@ -14,7 +14,6 @@
   }
 
   .header__logo {
-
       padding-top: 6px;
       @media screen and (min-width: 740px) {
         padding-top: 37px;
@@ -52,12 +51,38 @@
       color: var(--accent-text-color);
     }
   }
+  // .burger-button {
+   
+  // width: 20px;
+  // height: 20px;
+  
+  // border: none;
+  // cursor: pointer;
+  // background-color: blue;
+  // color: var(--title-text-color);
+  // &:hover,
+  // &:focus {
+  //   color: var(--accent-text-color);
+  // }
+  // @media screen and (min-width: 740px) {
+  //   position: absolute;
+  //   top: 51px;
+  //   right: 220px;
+  // }
+  // @media screen and (min-width: 1280px) {
+  //   display: none;
+  //  }
+  // }
+ 
   .header__btn {
       display: none;
       padding-top: 38px;
       @media screen and (min-width: 740px) {
         display: flex;
-        margin-left: auto;
+        
+      }
+      @media screen and (min-width: 1280px) {
+       margin-left: auto;
       }
   }
   .header__btn-modal {
