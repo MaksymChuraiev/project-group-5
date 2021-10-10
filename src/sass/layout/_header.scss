@@ -49,6 +49,15 @@
     border-radius: 22px;
     background-color: #ffffff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &::after {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 8px;
+        margin-left: 12px;
+        background-image: url();
+        background-size: contain;
+      }
     &:hover,
     &:focus {
         background-color: var(--btn-light-bg-hov-foc);
