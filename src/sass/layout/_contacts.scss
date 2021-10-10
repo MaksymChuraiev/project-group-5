@@ -78,6 +78,9 @@
   &__btn {
     padding: 11px 0;
     width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 135%;
@@ -128,6 +131,9 @@
   }
   //.contacts__btn-arrow
   &__btn-arrow {
-    margin-left: 13px;
+    margin-left: 7px;
+    @media screen and (min-width: 768px) {
+      margin-left: 13px;
+    }
   }
 }
