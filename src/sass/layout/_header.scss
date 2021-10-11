@@ -4,6 +4,8 @@
 .header {
   z-index: 10;
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   padding-top: 6px;
   @media screen and (min-width: 768px) {
@@ -47,10 +49,11 @@
     color: var(--accent-text-color);
   }
 }
+
 .burger-button {
   border: none;
   cursor: pointer;
-  color: var(--title-text-color);
+  color: var(--accent-text-color);
   background-color: transparent;
   margin-left: auto;
 
@@ -64,18 +67,8 @@
   }
 }
 
-// .header__btn {
-//   display: none;
-//   @media screen and (min-width: 740px) {
-//     display: flex;
-//     margin-left: 30px;
-//   }
-//   @media screen and (min-width: 1280px) {
-//     margin-left: auto;
-//   }
-// }
 .header__btn-modal {
-  display: flex;
+  display: none;
   align-items: center;
   padding-left: 37px;
   width: 160px;
@@ -98,27 +91,6 @@
   @media screen and (min-width: 768px) {
     display: flex;
     margin-left: 30px;
-  }
-}
-
-.burger-button {
-  width: 20px;
-  height: 20px;
-  border: none;
-  cursor: pointer;
-  background-color: blue;
-  color: var(--title-text-color);
-  &:hover,
-  &:focus {
-    color: var(--accent-text-color);
-  }
-  @media screen and (min-width: 740px) {
-    // position: absolute;
-    // top: 51px;
-    // right: 220px;
-  }
-  @media screen and (min-width: 1280px) {
-    display: none;
   }
 }
 
