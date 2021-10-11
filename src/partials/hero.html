@@ -1,63 +1,98 @@
 <section class="hero" id="hero">
-    <div class="container">
-        <div class="hero-left">
-        <h1 class="hero_title">ice cream made with <span class="hero_title feature">passion</span></h1>
-        <ul class="hero_site_links link">
+  <div class="container container_hero">
+    <div class="hero__container">
+      <div class="hero-left">
+        <div class="hero__button-container">
+          <h1 class="hero_title">
+            ice cream made with <span class="hero_title feature">passion</span>
+          </h1>
+          <ul class="hero_site_links link">
             <li>
-                <a class="hero_button" href="#products">Products</a>
+              <a class="hero_button" href="#products">Products</a>
             </li>
             <li>
-                <a class="hero_button about_link" href="#about">How it’s made?</a>
+              <a class="hero_button about_link" href="#about">How it’s made?</a>
             </li>
-        </ul>
-        
-        <picture class="hero_left-img">
-            <source srcset="./images/hero/slider-dek-x1.png 1x, ./images/hero/slider-dek-x2.png 2x" media="(min-width:1280px)"/>
-            <source srcset="./images/hero/slider-tab-x1.png 1x, ./images/hero/slider-tab-x2.png 2x" media="(min-width:768px)"/>
-    
-            <img src="./images/hero/slider-tab-x1.png" alt="milk-jug"/>
-        </picture>
+          </ul>
+          <div class="hero__left-image-wrapper">
+            <picture class="hero_left-img">
+              <source
+                srcset="./images/hero/slider-dek-x1.png 1x, ./images/hero/slider-dek-x2.png 2x"
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="./images/hero/slider-tab-x1.png 1x, ./images/hero/slider-tab-x2.png 2x"
+                media="(min-width:768px)"
+              />
 
-        <p class="hero_item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et    
-        </p>
-
-        <button></button>
-        </div>
-
-        <div class="hero_main-img">
-            <picture>
-                <source srcset="./images/hero/ellipse-dek-x1.png 1x, ./images/hero/ellipse-dek-x2.png 2x" media="(min-width:1280px)"/>
-                <source srcset="./images/hero/ellipse-tab-x1.png 1x, ./images/hero/ellipse-tab-x2.png 2x" media="(min-width:768px)"/>
-                <source srcset="./images/hero/eliipse-mob-x1.png 1x, ./images/hero/eliipse-mob-x2.png 2x" media="(min-width:480px)"/>
-
-                <img class="hero-ellipse" src="./images/hero/eliipse-mob-x1.png" alt="hero-ellipse"/>
+              <img src="./images/hero/slider-tab-x1.png" alt="milk-jug" />
             </picture>
-            <picture>
-                <source srcset="./images/hero/ice-dek-x1.png 1x, ./images/hero/ice-dek-x2.png 2x" media="(min-width:1280px)"/>
-                <source srcset="./images/hero/ice-tab-x1.png 1x, ./images/hero/ice-tab-x2.png 2x" media="(min-width:768px)"/>
-                <source srcset="./images/hero/ice-mob-x1.png 1x, ./images/hero/ice-mob-x2.png 2x" media="(min-width:480px)"/>
 
-                <img class="hero-ice" src="./images/hero/ice-mob-x1.png" alt="ice-cream"/>
-            </picture>
+            <p class="hero_item-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et
+            </p>
+          </div>
         </div>
-        <div class="hero-right">
-        <ul class="shop-points">
-            <li>
-            <p class="shop-points-numbers">16</p>
-            <p class="shop-points-text">cafes</p>
-            </li>
-            <li>
-            <p class="shop-points-numbers">23</p>
-            <p class="shop-points-text">food trucks</p>
-            </li>
-        </ul>
+      </div>
+      <div class="hero-right">
+        <div class="hero__right-first">
+          <p class="shop-points-numbers">16</p>
+          <p class="shop-points-text">cafes</p>
+          <span class="hero__right-ellipse"></span>
         </div>
-        <picture class="hero_right-img">
-            <source srcset="./images/hero/girl-dek-x1.png 1x, ./images/hero/girl-dek-x2.png 2x" media="(min-width:1280px)"/>
-            <source srcset="./images/hero/girl-tab-x1.png 1x, ./images/hero/girl-tab-x2.png 2x" media="(min-width:768px)"/>
-    
-            <img src="./images/hero/girl-tab-x1.png" alt="happy_girl"/>
-        </picture>
-
+        <div class="hero__right-second">
+          <p class="shop-points-numbers">23</p>
+          <p class="shop-points-text">food trucks</p>
+          <span class="hero__right-ellipse"></span>
+        </div>
+      </div>
     </div>
+    <div class="hero_main-img">
+      <picture>
+        <source
+          srcset="./images/hero/ellipse-dek-x1.png 1x, ./images/hero/ellipse-dek-x2.png 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="./images/hero/ellipse-tab-x1.png 1x, ./images/hero/ellipse-tab-x2.png 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="./images/hero/eliipse-mob-x1.png 1x, ./images/hero/eliipse-mob-x2.png 2x"
+          media="(min-width:480px)"
+        />
+
+        <img class="hero-ellipse" src="./images/hero/eliipse-mob-x1.png" alt="hero-ellipse" />
+      </picture>
+      <picture>
+        <source
+          srcset="./images/hero/ice-dek-x1.png 1x, ./images/hero/ice-dek-x2.png 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="./images/hero/ice-tab-x1.png 1x, ./images/hero/ice-tab-x2.png 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="./images/hero/ice-mob-x1.png 1x, ./images/hero/ice-mob-x2.png 2x"
+          media="(min-width:480px)"
+        />
+
+        <img class="hero-ice" src="./images/hero/ice-mob-x1.png" alt="ice-cream" />
+      </picture>
+    </div>
+    <picture class="hero_right-img">
+      <source
+        srcset="./images/hero/girl-dek-x1.png 1x, ./images/hero/girl-dek-x2.png 2x"
+        media="(min-width:1280px)"
+      />
+      <source
+        srcset="./images/hero/girl-tab-x1.png 1x, ./images/hero/girl-tab-x2.png 2x"
+        media="(min-width:768px)"
+      />
+
+      <img src="./images/hero/girl-tab-x1.png" alt="happy_girl" />
+    </picture>
+  </div>
 </section>
