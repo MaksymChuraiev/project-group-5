@@ -1,4 +1,4 @@
-.current {
+.header-list__link-current {
   color: var(--accent-text-color);
 }
 .header {
@@ -8,24 +8,22 @@
 
 .header-container {
     display: flex;
+    padding-top: 50px;
     align-items: center;
     justify-content: space-between;
-    background-color: violet;
+    
   }
 
   .header__logo {
-      padding-top: 6px;
+      
       @media screen and (min-width: 740px) {
-        padding-top: 37px;
         margin-right: auto;
-        
       }
   }
   .header-navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
   }
   .header-list {
     display: none;
@@ -51,47 +49,36 @@
       color: var(--accent-text-color);
     }
   }
-  // .burger-button {
-   
-  // width: 20px;
-  // height: 20px;
+  .burger-button {
+  border: none;
+  cursor: pointer;
+  color: var(--title-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
   
-  // border: none;
-  // cursor: pointer;
-  // background-color: blue;
-  // color: var(--title-text-color);
-  // &:hover,
-  // &:focus {
-  //   color: var(--accent-text-color);
-  // }
-  // @media screen and (min-width: 740px) {
-  //   position: absolute;
-  //   top: 51px;
-  //   right: 220px;
-  // }
-  // @media screen and (min-width: 1280px) {
-  //   display: none;
-  //  }
-  // }
+  @media screen and (min-width: 1280px) {
+    display: none;
+   }
+  }
  
   .header__btn {
       display: none;
-      padding-top: 38px;
       @media screen and (min-width: 740px) {
         display: flex;
-        
+        margin-left: 30px;
       }
       @media screen and (min-width: 1280px) {
        margin-left: auto;
       }
   }
   .header__btn-modal {
-      display: flex;
-      align-items: center;
-      padding-left: 37px;
+    display: flex;
+    align-items: center;
+    padding-left: 37px;
     width: 160px;
     height: 44px;
-  
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
@@ -101,17 +88,13 @@
     border-radius: 22px;
     background-color: #ffffff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &::after {
-        content: "";
-        display: block;
-        width: 4px;
-        height: 8px;
-        margin-left: 12px;
-        background-image: url();
-        background-size: contain;
-      }
+
     &:hover,
     &:focus {
         background-color: var(--btn-light-bg-hov-foc);
   }
+}
+
+.header__btn-logo {
+  margin-left: 5px;
 }
