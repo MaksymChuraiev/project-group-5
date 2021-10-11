@@ -3,7 +3,7 @@
   padding-bottom: 39px;
   background-color: var(--pink-section-bg);
 
-  background-image: url('../images/about/milk-mob-x1.png');
+  // background-image: url('../images/about/milk-mob-x1.png');
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +30,19 @@
   @media screen and (min-width: 1280px) {
     padding-top: 125px;
     padding-bottom: 39px;
+  }
+}
+
+.about-background {
+  margin: 0 auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+  @media screen and (max-width: 479px) {
+    background-image: url("../images/about/milk-mob-x1.png");
+    background-position-y: 88%;
   }
 }
 
