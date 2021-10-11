@@ -43,6 +43,7 @@
   // .cards__descr
   &__descr {
     line-height: 150%;
+    letter-spacing: 0;
     @media screen and (min-width: 768px) {
       line-height: 166%;
     }

@@ -9,9 +9,22 @@
   }
   @media screen and (min-width: 1280px) {
     font-size: 16px;
+    background-image: url(../images/contacts/fon-dek-x1.png);
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+    background-size: contain;
+  }
+  // .contacts__relative
+  &__relative {
+    position: relative;
   }
   // .contacts__list
   &__list {
+    position: absolute;
+    top: -84px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
     margin-bottom: 54px;
     @media screen and (min-width: 768px) {
       margin-bottom: 81px;
@@ -45,18 +58,29 @@
   }
   // .contacts__buttons
   &__buttons {
+    padding-top: 1300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (min-width: 406px) {
+      padding-top: 1250px;
+    }
     @media screen and (min-width: 768px) {
+      padding-top: 545px;
       flex-direction: row;
       justify-content: center;
+    }
+    @media screen and (min-width: 1280px) {
+      padding-top: 565px;
     }
   }
   // .contacts__btn
   &__btn {
     padding: 11px 0;
     width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 135%;
@@ -103,6 +127,13 @@
       @media screen and (min-width: 768px) {
         padding: 11px 40px;
       }
+    }
+  }
+  //.contacts__btn-arrow
+  &__btn-arrow {
+    margin-left: 7px;
+    @media screen and (min-width: 768px) {
+      margin-left: 13px;
     }
   }
 }
