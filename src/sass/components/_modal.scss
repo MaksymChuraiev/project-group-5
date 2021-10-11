@@ -1,5 +1,4 @@
 .modal {
-  z-index: 99;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -39,6 +38,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--title-text-color);
+  transition: background-color var(--main-time-anime) var(--main-anime);
   &:hover,
   &:focus {
     background-color: var(--btn-dark-bg-hov-foc);
@@ -138,6 +138,7 @@
   border-radius: 4px;
   resize: none;
   color: var(--accent-text-color);
+  transition: border-color var(--main-time-anime) var(--main-anime);
   &::placeholder {
     font-style: normal;
     font-weight: normal;
@@ -216,7 +217,7 @@
   font-weight: 700;
   line-height: 1.4;
   border-radius: 22px;
-
+  transition: background-color var(--main-time-anime) var(--main-anime);
   background: var(--secondary-text-color);
 
   color: var(--title-text-color);
