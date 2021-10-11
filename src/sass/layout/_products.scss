@@ -1,24 +1,20 @@
 .products-section {
-
-    padding-top: 120px;
-    padding-bottom: 98px;
-    margin: 0 auto;
-
+  padding-top: 120px;
+  padding-bottom: 98px;
+  margin: 0 auto;
 }
 
 .pre-title {
-
-    margin: 0 auto 15px;
-    text-align: center;
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.17;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFA5BA;
-
+  margin: 0 auto 15px;
+  text-align: center;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffa5ba;
 }
 
 .section-title {
@@ -47,9 +43,7 @@
   align-items: center;
   @media screen and (min-width: 768px) {
     display: flex;
-
-    }
-
+  }
 }
 .products__item {
   position: relative;
@@ -57,6 +51,7 @@
   justify-content: center;
   height: 600px;
   padding-top: 115px;
+  padding-bottom: 41px;
 
   @media screen and (min-width: 1280px) {
     height: 665px;
@@ -93,7 +88,7 @@
   }
   &:before {
     content: '';
-    top: -125px;
+    top: -112px;
     left: 15px;
     width: 250px;
     height: 250px;
@@ -102,7 +97,7 @@
     background-position: 50%;
     background-size: cover;
     position: absolute;
-    border: 1px solid #000;
+
     background-image: url(../images/products/products1-mob-x1.png);
 
     @media screen and (min-width: 768px) {
@@ -111,13 +106,12 @@
       left: 0;
     }
     @media screen and (min-width: 1280px) {
-
       width: 330px;
       height: 335px;
       top: -150px;
     }
   }
-
+}
 
 .products__item-card-coffee {
   position: relative;
@@ -140,7 +134,7 @@
 
   &:before {
     content: '';
-    top: -125px;
+    top: -112px;
     left: 15px;
     width: 250px;
     height: 250px;
@@ -149,24 +143,20 @@
     background-position: 50%;
     background-size: cover;
     position: absolute;
-    border: 1px solid #000;
-    // background-image: url(../images/products/products1-mob-x1.png),
-    //                 url(../images/products/products1-mob-x2.png);
+
+    background-image: url(../images/products/products2-mob-x1.png);
     @media screen and (min-width: 768px) {
       width: 220px;
       height: 226px;
       left: 0;
     }
     @media screen and (min-width: 1280px) {
-
       width: 330px;
       height: 335px;
       top: -150px;
-
- 
+    }
   }
 }
-
 .products__item-card-milk {
   position: relative;
   margin: 0 auto;
@@ -188,7 +178,7 @@
 
   &:before {
     content: '';
-    top: -125px;
+    top: -112px;
     left: 15px;
     width: 250px;
     height: 250px;
@@ -197,23 +187,19 @@
     background-position: 50%;
     background-size: cover;
     position: absolute;
-    border: 1px solid #000;
-    // background-image: url(../images/products/products1-mob-x1.png),
-    //                 url(../images/products/products1-mob-x2.png);
+
+    background-image: url(../images/products/products3-mob-x1.png);
     @media screen and (min-width: 768px) {
       width: 220px;
       height: 226px;
       left: 0;
     }
     @media screen and (min-width: 1280px) {
-
       width: 330px;
       height: 335px;
       top: -150px;
-
-
     }
- 
+  }
 }
 
 .pre-title-assortment {
@@ -234,7 +220,6 @@
     padding-top: 210px;
     font-size: 30px;
     line-height: 1.13;
-
   }
 }
 
@@ -259,19 +244,17 @@
 }
 
 .products__item-text {
-
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.52;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    padding: 0 45px;
-    height: auto;
-    margin: 0 auto 40px;
-
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 0 40px;
+  height: auto;
+  margin: 0 auto 30px;
 
   @media screen and (min-width: 768px) {
     padding: 0 15px;
@@ -285,16 +268,20 @@
   }
 }
 
+.products__item-text-span {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
 .products__btn {
-
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 0 auto;
-    background-color: #fff;
-    background-image: url(../images/arrow.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  background-image: url(../images/arrow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
