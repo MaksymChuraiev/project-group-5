@@ -2,6 +2,9 @@
   padding-top: 120px;
   padding-bottom: 98px;
   margin: 0 auto;
+  @media screen and (min-width: 1280px) {
+    padding-top: 127px;
+  }
 }
 
 .pre-title {
@@ -34,7 +37,7 @@
     font-style: 48px;
   }
   @media screen and (min-width: 1280px) {
-    margin: 0 auto 50px;
+    margin: 0 auto 130px;
     font-size: 58px;
   }
 }
@@ -100,15 +103,30 @@
 
     background-image: url(../images/products/products1-mob-x1.png);
 
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/products/products1-mob-x2.png);
+    }
     @media screen and (min-width: 768px) {
       width: 220px;
       height: 226px;
       left: 0;
+
+      background-image: url(../images/products/products1-tab-x1.png);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/products1-tab-x2.png);
+      }
     }
     @media screen and (min-width: 1280px) {
       width: 330px;
       height: 335px;
-      top: -150px;
+      top: -210px;
+
+      background-image: url(../images/products/products1-dek-x1.png);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/products1-dek-x2.png);
+      }
     }
   }
 }
@@ -145,15 +163,30 @@
     position: absolute;
 
     background-image: url(../images/products/products2-mob-x1.png);
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/products/products2-mob-x2.png);
+    }
     @media screen and (min-width: 768px) {
       width: 220px;
       height: 226px;
       left: 0;
+
+      background-image: url(../images/products/products2-tab-x1.png);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/products2-tab-x2.png);
+      }
     }
     @media screen and (min-width: 1280px) {
       width: 330px;
       height: 335px;
-      top: -150px;
+      top: -210px;
+
+      background-image: url(../images/products/products2-dek-x1.png);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/products2-dek-x2.png);
+      }
     }
   }
 }
@@ -187,15 +220,30 @@
     position: absolute;
 
     background-image: url(../images/products/products3-mob-x1.png);
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/products/products3-mob-x2.png);
+    }
     @media screen and (min-width: 768px) {
       width: 220px;
       height: 226px;
       left: 0;
+
+      background-image: url(../images/products/products3-tab-x1.png);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/products3-tab-x2.png);
+      }
     }
     @media screen and (min-width: 1280px) {
       width: 330px;
       height: 335px;
-      top: -150px;
+      top: -210px;
+
+      background-image: url(../images/products/products3-dek-x1.png);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/products3-dek-x2.png);
+      }
     }
   }
 }
