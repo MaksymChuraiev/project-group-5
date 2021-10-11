@@ -1,4 +1,6 @@
 .reviews-img {
+  width: 85px;
+  height: 85px;
   margin: 0 auto;
   margin-bottom: 15px;
 }
@@ -13,6 +15,7 @@
 }
 
 .slider-text {
+  display: block;
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -21,15 +24,27 @@
   color: #000000;
   background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
   text-align: center;
+  position: relative;
+  z-index: 1;
 
   &::before {
     content: '';
-    display: inline-flex;
     width: 54px;
     height: 40px;
     background-image: url(../images/customer/textdecor.svg);
     background-size: cover;
+    position: absolute;
+    top: -20px;
+    left: 15px;
     z-index: -1;
+    @media screen and (min-width: 480px) {
+      top: -17px;
+      left: -21px;
+    }
+    @media screen and (min-width: 1280px) {
+      top: -21px;
+      left: -28px;
+    }
   }
 }
 
