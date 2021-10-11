@@ -41,16 +41,23 @@
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.87;
   letter-spacing: 0.02em;
   color: var(--third-text-color);
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+  }
 }
+
 .footer__tel-link {
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.87;
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
@@ -58,6 +65,13 @@
   &:hover,
   &:focus {
     color: var(--btn-dark-bg-hov-foc);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
   }
 }
 .footer__text-after-line {
@@ -103,6 +117,7 @@
   .footer__pre-text {
     font-size: 26px;
     line-height: 1.15;
+    max-width: 340px;
   }
   .footer__text {
     font-size: 48px;

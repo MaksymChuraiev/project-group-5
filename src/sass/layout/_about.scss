@@ -3,7 +3,7 @@
   padding-bottom: 39px;
   background-color: var(--pink-section-bg);
 
-  // background-image: url('../images/about/milk-mob-x1.png');
+  background-image: url('../images/about/milk-mob-x1.png');
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,8 +182,7 @@
 
   &:hover,
   &:focus {
-    color: #ffffff;
-    background-color: #d41443;
+    background-color: var(--btn-light-bg-hov-foc);
   }
 }
 
