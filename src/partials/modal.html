@@ -1,0 +1,70 @@
+<div class="backdrop" data-modal>
+  <div class="modal">
+    <button type="button" class="modal__btn-close" data-modal-close>
+      <svg class="modal__icon" width="14" height="14">
+        <use href="./images/sprite.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <form action="#" class="modal__form">
+      <b class="modal__title">Leave your details, we will call you back</b>
+      <div class="form__field">
+        <label for="input-name" class="form__label">Name</label>
+        <span class="form__input-wrap">
+          <input type="text" name="modal-name" id="input-name" class="form__input" />
+          <svg class="form__icon" width="12" height="12">
+            <use href="./images/sprite.svg#icon-name"></use>
+          </svg>
+        </span>
+      </div>
+      <div class="form__field">
+        <label for="input-tel" class="form__label">Tell</label>
+        <span class="form__input-wrap">
+          <input type="tel" name="modal-name" id="input-tel" class="form__input" />
+          <svg class="form__icon" width="13" height="13">
+            <use href="./images/sprite.svg#icon-tell"></use>
+          </svg>
+        </span>
+      </div>
+      <div class="form__field">
+        <label for="input-email" class="form__label">Email</label>
+        <span class="form__input-wrap">
+          <input type="email" name="modal-name" id="input-email" class="form__input" />
+          <svg class="form__icon" width="15" height="12">
+            <use href="./images/sprite.svg#icon-mail"></use>
+          </svg>
+        </span>
+      </div>
+      <label for="products" class="form__label">Products</label>
+      <select class="form__input-size" name="products" id="products">
+        <option value="ice-cream">Ice cream</option>
+        <option value="ice-coffee">Ice coffee</option>
+        <option value="milkshakes">Milkshakes</option>
+      </select>
+
+      <div class="form__field">
+        <label for="comment" class="form__label">Comment</label>
+        <textarea
+          name="modal-comment"
+          id="comment"
+          class="form__comment"
+          placeholder="Введите текст"
+        ></textarea>
+      </div>
+      <div class="form__field">
+        <input type="checkbox" id="check" name="policy" class="checkbox visually-hidden" />
+        <label for="check" class="form__check-label">
+          <span class="form__icon-check">
+            <svg class="form__checkbox-icon" width="11" height="18">
+              <use href="./images/sprite.svg#icon-checc"></use>
+            </svg>
+          </span>
+          <div class="form__check-text">
+            I agree to the newsletter and accept
+            <a href="" class="form__checkbox-link">Terms of an agreement</a>
+          </div>
+        </label>
+      </div>
+      <button class="form__button" type="submit">Send</button>
+    </form>
+  </div>
+</div>
