@@ -209,7 +209,7 @@
   .hero {
     padding-top: 84px;
     padding-bottom: 45px;
-    min-height: 399px;
+    min-height: 665px;
   }
   .shop-points-numbers {
     font-size: 46px;
@@ -220,8 +220,8 @@
     line-height: 1.28;
   }
   .hero_main-img {
-    top: 0;
-    right: 267px;
+    top: -8px;
+    right: 200px;
   }
   .hero__right-ellipse {
     width: 30px;
@@ -232,5 +232,12 @@
   }
   .hero__right-first {
     margin-bottom: 18px;
+  }
+  .hero_right-img {
+    top: 349px;
+    right: 0;
+  }
+  .hero_site_links {
+    margin-bottom: 56px;
   }
 }
