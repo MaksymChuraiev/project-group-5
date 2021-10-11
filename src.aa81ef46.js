@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/products/products1-mob-x1.png":[["products1-mob-x1.2aab8e92.png","eNvc"],"eNvc"],"./../images/products/products2-mob-x1.png":[["products2-mob-x1.3dc75c02.png","RJcX"],"RJcX"],"./../images/products/products3-mob-x1.png":[["products3-mob-x1.e8f2677a.png","G3s0"],"G3s0"],"./../images/arrow.png":[["arrow.67bcf19b.png","tnpW"],"tnpW"],"./../images/about/milk-mob-x1.png":[["milk-mob-x1.59cfff43.png","Adfh"],"Adfh"],"./../images/about/milk-mob-x2.png":[["milk-mob-x2.7572d104.png","DPCb"],"DPCb"],"./../images/about/milk-dek-x1.png":[["milk-dek-x1.09501f64.png","o7a6"],"o7a6"],"./../images/about/milk-dek-x2.png":[["milk-dek-x2.93dcdb2b.png","iSGd"],"iSGd"],"./../images/contacts/fon-dek-x1.png":[["fon-dek-x1.76a0ebca.png","fkuC"],"fkuC"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/project-group-5/src.49164c35.js.map
+//# sourceMappingURL=/project-group-5/src.aa81ef46.js.map
