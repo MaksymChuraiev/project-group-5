@@ -94,11 +94,45 @@
   &:focus {
     background-color: var(--btn-light-bg-hov-foc);
   }
+<<<<<<< Updated upstream
 
   display: none;
   @media screen and (min-width: 768px) {
     display: flex;
     margin-left: 30px;
+=======
+  .burger-button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+  color: var(--title-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+  @media screen and (min-width: 740px) {
+    // position: absolute;
+    // top: 51px;
+    // right: 220px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+   }
+  }
+ 
+  .header__btn {
+      display: none;
+      padding-top: 38px;
+      @media screen and (min-width: 740px) {
+        display: flex;
+        
+      }
+      @media screen and (min-width: 1280px) {
+       margin-left: auto;
+      }
+>>>>>>> Stashed changes
   }
   @media screen and (min-width: 1280px) {
     margin-left: auto;
