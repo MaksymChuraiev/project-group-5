@@ -1,5 +1,6 @@
 .modal {
   position: absolute;
+
   top: 50%;
   left: 50%;
   min-height: 581px;
@@ -8,7 +9,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 24px;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.9);
   transition: transform var(--main-time-anime) var(--main-anime);
   padding: 40px;
   .backdrop .backdrop.is-hidden & {
@@ -21,6 +22,8 @@
 
   @media screen and (max-width: 479px) {
     width: 100%;
+    padding: 30px;
+    transform: translate(-50%, -50%) scale(0.8);
   }
 }
 
@@ -92,7 +95,7 @@
   border: 1px solid var(--pre-title-text-color);
   color: var(--accent-text-color);
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 8px;
   padding-left: 42px;
   transition: border-color var(--main-time-anime) var(--main-anime);
   &:focus-within {
@@ -135,7 +138,7 @@
   height: 120px;
   border: 1px solid var(--pre-title-text-color);
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 8px;
   resize: none;
   color: var(--accent-text-color);
   transition: border-color var(--main-time-anime) var(--main-anime);
