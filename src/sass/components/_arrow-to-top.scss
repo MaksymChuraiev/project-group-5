@@ -1,4 +1,5 @@
 .back-to-top {
+  display: none;
   position: fixed;
   right: 10px;
   bottom: 40px;
@@ -7,7 +8,7 @@
   border-color: transparent;
   border-radius: 50%;
   background-color: rgba(212, 20, 67, 0.3);
-  display: none;
+
   &:focus,
   &:hover {
     background-color: rgba(212, 20, 67, 0.7);
