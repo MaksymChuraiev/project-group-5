@@ -133,3 +133,16 @@
   background-image: url(../images/customer/home.svg);
   background-size: cover;
 }
+
+.slick-prev {
+  left: -19px;
+  @media screen and (min-width: 768px) {
+    left: -25px;
+  }
+}
+.slick-next {
+  right: -19px;
+  @media screen and (min-width: 768px) {
+    right: -25px;
+  }
+}
