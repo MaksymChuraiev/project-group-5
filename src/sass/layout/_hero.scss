@@ -24,11 +24,12 @@
   position: absolute;
   z-index: -5;
   right: 0;
-  top: 89px;
+  // top: 89px;
+  bottom: 75px;
 }
 .hero-ice {
   position: absolute;
-  right: 12px;
+  right: 32px;
   bottom: -75px;
 }
 
@@ -155,7 +156,8 @@
   .hero_main-img {
     position: absolute;
     z-index: -2;
-    top: 25px;
+    // top: 25px;
+    bottom: 46px;
     right: 137px;
   }
   .hero {
@@ -167,8 +169,9 @@
   .hero-ice {
     position: absolute;
     right: 110px;
-    top: 32px;
-    bottom: unset;
+    // top: 32px;
+    // bottom: unset;
+    bottom: -46px;
   }
   .hero__left-image-wrapper {
     display: flex;
@@ -268,8 +271,17 @@
     line-height: 1.28;
   }
   .hero_main-img {
-    top: 17px;
+    // top: 17px;
+    bottom: 50px;
     right: 200px;
+  }
+
+  .hero-ice {
+    position: absolute;
+    right: 110px;
+    // top: 32px;
+    // bottom: unset;
+    bottom: -95px;
   }
   // .hero__right-ellipse {
   //   width: 30px;
