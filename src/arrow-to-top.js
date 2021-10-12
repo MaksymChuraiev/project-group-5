@@ -1,6 +1,5 @@
 function backToTop() {
   let button = $('.back-to-top');
-
   $(window).on('scroll', () => {
     if ($(this).scrollTop() > 100) {
       button.fadeIn();
@@ -8,7 +7,6 @@ function backToTop() {
       button.fadeOut();
     }
   });
-
   button.on('click', e => {
     e.preventDefault();
     $('html').animate({ scrollTop: 0 }, 1000);
