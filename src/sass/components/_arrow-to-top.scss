@@ -1,4 +1,4 @@
-.back-to-top {
+.back_to_top {
   display: none;
   position: fixed;
   right: 10px;
@@ -35,4 +35,8 @@
     border-top: 5px solid rgba(255, 255, 255, 1);
     border-left: 5px solid rgba(255, 255, 255, 1);
   }
+}
+
+.back_to_top-show {
+  display: block;
 }
