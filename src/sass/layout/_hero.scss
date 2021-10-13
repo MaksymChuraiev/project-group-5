@@ -128,6 +128,7 @@
     position: absolute;
     bottom: 0;
     right: 34px;
+    animation-duration: 1000ms;
   }
   .container_hero {
     position: relative;
@@ -135,6 +136,7 @@
   }
   .hero_left-img {
     display: unset;
+    animation-duration: 1000ms;
   }
   .hero_item-text {
     max-width: 114px;
